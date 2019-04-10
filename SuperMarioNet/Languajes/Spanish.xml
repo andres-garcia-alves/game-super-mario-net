@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<languaje>
+  <frmMenu>
+    <btnPlay>Jugar</btnPlay>
+    <btnHowTo>Como jugar</btnHowTo>
+    <btnHighScores>Puntajes max.</btnHighScores>
+    <btnOptions>Opciones</btnOptions>
+    <btnEditor>Editor de niveles</btnEditor>
+    <btnCredits>Creditos</btnCredits>
+    <btnExit>Salir</btnExit>
+  </frmMenu>
+  <frmGame>
+    <level>Mundo</level>
+    <score>Mario</score>
+    <time>Tiempo</time>
+    <loseLive>Upsss# vidas restantes.</loseLive>
+    <noLive>Upsss#No quedan vidas, perdiste.</noLive>
+    <levelUp>Bien#Nivel completo!\nPreparate para el nivel </levelUp>
+    <gameFinished>Felicidades#Juego completado!</gameFinished>
+    <highScore>Nueva puntuacion maxima!#Ingrese su nombre (# caracteres max).</highScore>
+  </frmGame>
+  <frmHowTo>
+    <step1>Usa las teclas 'izquierda' y 'derecha' para moverte.</step1>
+    <step2>Usa la tecla 'z' para 'correr/disparar' y la tecla 'x' para saltar.</step2>
+    <step3>Evita que te atrapen los monstruos. Golpealos en su cabeza para eliminarlos.</step3>
+    <step4>Consigue los hongos para crecer de tamaño.</step4>
+    <step5>Consigue las flores para poder disparar.</step5>
+    <lblLeyend>Fin del tutorial.</lblLeyend>
+    <btnBack>Volver</btnBack>
+    <btnRepeat>Repetir</btnRepeat>
+  </frmHowTo>
+  <frmHighScores>
+    <reset>CONFIRMACION#Realmente quiere resetear las puntuaciones maximas?</reset>
+  </frmHighScores>
+  <frmOptions>
+    <lblGameMode>Modo del Juego</lblGameMode>
+    <lblLanguaje>Lenguaje</lblLanguaje>
+    <lblLives>Vidas</lblLives>
+    <lblMusic>Musica</lblMusic>
+    <lblInput>Control</lblInput>
+    <lblMessaje>Los cambios de aplicaran despues de reiniciar el juego.</lblMessaje>
+    <btnOK>Guardar</btnOK>
+    <btnCancel>Volver</btnCancel>
+    <btnRestart>Reiniciar</btnRestart>
+  </frmOptions>
+  <frmCredits>
+    <titles>Creado por#Contacto#Curso#Universidad#Licencia##</titles>
+  </frmCredits>
+</languaje>

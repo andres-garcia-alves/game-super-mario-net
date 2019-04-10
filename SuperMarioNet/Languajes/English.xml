@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<languaje>
+  <frmMenu>
+    <btnPlay>Play</btnPlay>
+    <btnHowTo>How To Play</btnHowTo>
+    <btnHighScores>High Scores</btnHighScores>
+    <btnOptions>Options</btnOptions>
+    <btnEditor>Level Editor</btnEditor>
+    <btnCredits>Credits</btnCredits>
+    <btnExit>Exit</btnExit>
+  </frmMenu>
+  <frmGame>
+    <level>World</level>
+    <score>Mario</score>
+    <time>Time</time>
+    <loseLive>Upsss# lives remaining.</loseLive>
+    <noLive>Upsss#No lives remaining, you lose.</noLive>
+    <levelUp>Good#Level complete!\nPrepare for level </levelUp>
+    <gameFinished>Congratz#Game Finished!</gameFinished>
+    <highScore>New high score!#Type your name (# chars max).</highScore>
+  </frmGame>
+  <frmHowTo>
+    <step1>Use the 'left' and 'right' keys to move.</step1>
+    <step2>Use the 'z' key to 'run/shot' and 'x' key to jump.</step2>
+    <step3>Avoid be cached by the monsters. Hit in their head to destroy them.</step3>
+    <step4>Catch the mushrooms to grow up.</step4>
+    <step5>Catch the flowers to allow you to fire.</step5>
+    <lblLeyend>End of tutorial.</lblLeyend>
+    <btnBack>Return</btnBack>
+    <btnRepeat>Repeat</btnRepeat>
+  </frmHowTo>
+  <frmHighScores>
+    <reset>CONFIRMATION#Really you want to reset the high scores?</reset>
+  </frmHighScores>
+  <frmOptions>
+    <lblGameMode>Game Mode</lblGameMode>
+    <lblLanguaje>Languaje</lblLanguaje>
+    <lblLives>Lives</lblLives>
+    <lblMusic>Music</lblMusic>
+    <lblInput>Input</lblInput>
+    <lblMessaje>Changes will apply after game restart.</lblMessaje>
+    <btnOK>Save</btnOK>
+    <btnCancel>Return</btnCancel>
+    <btnRestart>Restart</btnRestart>
+  </frmOptions>
+  <frmCredits>
+    <titles>Created by#Contact#Curse#University#Licensing##</titles>
+  </frmCredits>
+</languaje>

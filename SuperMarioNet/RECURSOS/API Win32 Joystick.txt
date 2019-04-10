@@ -1,0 +1,116 @@
+# Imports System.Runtime.InteropServices
+#  
+# Public Class joystick
+#     ' Joystick API functions
+#     Private Declare Function joyGetPosEx Lib "winmm.dll" (ByVal uJoyID As Integer, ByRef pji As JOYINFOEX) As Integer
+#     Private Declare Function joyGetDevCaps Lib "winmm.dll" Alias "joyGetDevCapsA" (ByVal uJoyID As Integer, ByRef pjc As JOYCAPS, ByVal cjc As Integer) As Integer
+#     Private Declare Function joyGetNumDevs Lib "winmm.dll" () As Integer
+#  
+#     <StructLayout(LayoutKind.Sequential)> _
+#     Public Structure JOYCAPS
+#         Dim wMid As Short
+#         Dim wPid As Short
+#         <MarshalAs(UnmanagedType.ByValTStr, SizeConst:=32)> _
+#         Dim szPname As String
+#         Dim wXmin As Integer
+#         Dim wXmax As Integer
+#         Dim wYmin As Integer
+#         Dim wYmax As Integer
+#         Dim wZmin As Integer
+#         Dim wZmax As Integer
+#         Dim wNumButtons As Integer
+#         Dim wPeriodMin As Integer
+#         Dim wPeriodMax As Integer
+#         Dim wRmin As Integer
+#         Dim wRmax As Integer
+#         Dim wUmin As Integer
+#         Dim wUmax As Integer
+#         Dim wVmin As Integer
+#         Dim wVmax As Integer
+#         Dim wCaps As Integer
+#         Dim wMaxAxes As Integer
+#         Dim wNumAxes As Integer
+#         Dim wMaxButtons As Integer
+#         <MarshalAs(UnmanagedType.ByValTStr, SizeConst:=32)> _
+#         Dim szRegKey As String
+#         <MarshalAs(UnmanagedType.ByValTStr, SizeConst:=260)> _
+#         Dim szOEMVxD As String
+#     End Structure
+#  
+#     Public Structure JOYINFOEX
+#         Dim dwSize As Integer
+#         Dim dwFlags As Integer
+#         Dim dwXpos As Integer
+#         Dim dwYpos As Integer
+#         Dim dwZpos As Integer
+#         Dim dwRpos As Integer
+#         Dim dwUpos As Integer
+#         Dim dwVpos As Integer
+#         Dim dwButtons As Integer
+#         Dim dwButtonNumber As Integer
+#         Dim dwPOV As Integer
+#         Dim dwReserved1 As Integer
+#         Dim dwReserved2 As Integer
+#     End Structure
+#  
+#     '***  joyGetPosEx  Constants  ***
+#  
+#     Public Const JOYSTICKID1 = 0
+#     Public Const JOYSTICKID2 = 1
+#     Public Const MMSYSERR_BASE = 0
+#     ' The joystick driver is not present.
+#     Public Const MMSYSERR_NODRIVER = (MMSYSERR_BASE + 6)
+#     ' An invalid parameter was passed.
+#     Public Const MMSYSERR_INVALPARAM = (MMSYSERR_BASE + 11)
+#     ' Windows 95/98/Me: The specified joystick identifier is invalid.
+#     Public Const MMSYSERR_BADDEVICEID = (MMSYSERR_BASE + 2)
+#     Public Const JOYERR_NOERROR = 0
+#     'if successful or one of the following error values.
+#     Public Const JOYERR_BASE = 160
+#     ' Windows NT/2000/XP: The specified joystick identifier is invalid.
+#     Public Const JOYERR_PARMS = (JOYERR_BASE + 5)
+#     ' The specified joystick is not connected to the system.
+#     Public Const JOYERR_UNPLUGGED = (JOYERR_BASE + 7)
+#  
+#     Public JoyNum As Long
+#     Private JoyInfoExtended As JOYINFOEX
+#     Public MYJOYEX As JOYINFOEX
+#  
+#      Public Sub InitJoy()
+#         'Get the joystick number in the system and about information
+#         Dim xJa, xRj As Long
+#         Dim xJn As Integer
+#         Dim sDJ As String
+#         Dim CapX As JOYCAPS
+#  
+#         xJa = joyGetNumDevs
+#         ' The joyGetNumDevs function returns the number of joysticks supported by the
+#         ' current driver or zero if no driver is installed.
+#         If (xJa = 0) Then
+#             MsgBox("There is no joystick driver installed.", MsgBoxStyle.Critical)
+#         End If
+#         Debug.Print("There are " & xJa & " joysticks")
+#         For xJn = 0 To (xJa - 1)
+#             Debug.Print(xJn)
+#             xRj = joyGetDevCaps(xJn, CapX, 404)
+#             Select Case xRj
+#                 Case MMSYSERR_NODRIVER
+#                     'The joystick driver is not present or joystick identifier is invalid
+#                     MsgBox("The joystick driver is not present or joystick identifier is invalid", MsgBoxStyle.Critical)
+#                 Case MMSYSERR_INVALPARAM
+#                     ' An invalid parameter was passed or joystick identifier is invalid
+#                     MsgBox("An invalid parameter was passed or joystick identifier is invalid", MsgBoxStyle.Critical)
+#                 Case Else
+#                     ' default
+#             End Select
+#  
+#             If Val(CapX.wPid) <> 0 Then
+#                 sDJ = "Joystick " & Trim(Str(xJn + 1))
+#                 sDJ &= Str(CapX.wNumAxes) & " Axes"
+#                 sDJ &= Str(CapX.wNumButtons) & " Buttons "
+#                 sDJ &= CapX.szPname
+#                 Debug.Print(sDJ)
+#             End If
+#         Next
+#     End Sub
+#    End Class

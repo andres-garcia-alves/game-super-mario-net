@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!-- floor -->
+  <object type="Floor" visible="False" pos_x="0" pos_y="12" width="3036" height="12" />
+  <object type="Floor" visible="False" pos_x="71" pos_y="12" width="660" height="12" />
+  <object type="Floor" visible="False" pos_x="89" pos_y="12" width="2772" height="12" />
+  <object type="Floor" visible="False" pos_x="154" pos_y="12" width="2420" height="12" />
+
+  <!-- coin bricks -->
+  <object type="CoinBrick" visible="True" pos_x="16" pos_y="8" width="0" height="0" />
+  <object type="CoinRewardBrick" visible="True" pos_x="21" pos_y="8" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="23" pos_y="8" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="22" pos_y="4" width="0" height="0" />
+  <object type="CoinRewardBrick" visible="True" pos_x="78" pos_y="8" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="94" pos_y="4" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="106" pos_y="8" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="109" pos_y="8" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="109" pos_y="4" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="112" pos_y="8" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="129" pos_y="4" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="130" pos_y="4" width="0" height="0" />
+  <object type="CoinBrick" visible="True" pos_x="170" pos_y="8" width="0" height="0" />
+  
+  <!-- normal bricks -->
+  <object type="NormalBrick" visible="True" pos_x="20" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="22" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="24" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="77" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="79" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="80" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="81" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="82" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="83" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="84" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="85" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="86" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="87" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="91" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="92" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="93" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="94" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="100" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="101" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="118" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="121" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="122" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="123" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="128" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="129" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="130" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="131" pos_y="4" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="168" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="169" pos_y="8" width="0" height="0" />
+  <object type="NormalBrick" visible="True" pos_x="171" pos_y="8" width="0" height="0" />
+
+  <!-- pipes -->
+  <object type="PipeSmall" visible="True" pos_x="28" pos_y="10" width="0" height="0" />
+  <object type="PipeMedium" visible="True" pos_x="38" pos_y="9" width="0" height="0" />
+  <object type="PipeLarge" visible="True" pos_x="46" pos_y="8" width="0" height="0" />
+  <object type="PipeLarge" visible="True" pos_x="57" pos_y="8" width="0" height="0" />
+  <object type="PipeSmall" visible="True" pos_x="163" pos_y="10" width="0" height="0" />
+  <object type="PipeSmall" visible="True" pos_x="179" pos_y="10" width="0" height="0" />
+
+  <!-- growing ramp -->
+  <object type="SolidBlock" visible="True" pos_x="134" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="137" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="135" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="137" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="136" pos_y="9" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="137" pos_y="9" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="137" pos_y="8" width="0" height="0" />
+
+  <!--  decreasing ramp -->
+  <object type="SolidBlock" visible="True" pos_x="140" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="143" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="140" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="142" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="140" pos_y="9" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="141" pos_y="9" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="140" pos_y="8" width="0" height="0" />
+
+  <!-- growing ramp -->
+  <object type="SolidBlock" visible="True" pos_x="148" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="152" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="149" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="152" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="150" pos_y="9" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="152" pos_y="9" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="151" pos_y="8" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="152" pos_y="8" width="0" height="0" />
+
+  <!--  decreasing ramp -->
+  <object type="SolidBlock" visible="True" pos_x="155" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="158" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="155" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="157" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="155" pos_y="9" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="156" pos_y="9" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="155" pos_y="8" width="0" height="0" />
+
+  <!-- finish ramp -->
+  <object type="SolidBlock" visible="True" pos_x="181" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="189" pos_y="11" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="182" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="189" pos_y="10" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="183" pos_y="09" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="189" pos_y="09" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="184" pos_y="08" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="189" pos_y="08" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="185" pos_y="07" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="189" pos_y="07" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="186" pos_y="06" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="189" pos_y="06" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="187" pos_y="05" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="189" pos_y="05" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="188" pos_y="04" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="189" pos_y="04" width="0" height="0" />
+
+  <!-- goal  -->
+  <object type="Goal" visible="True" pos_x="198" pos_y="02" width="0" height="0" />
+  <object type="SolidBlock" visible="True" pos_x="198" pos_y="11" width="0" height="0" />
+
+  <!-- monsters -->
+  <object type="Mushroom" visible="True" pos_x="960" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="1936" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="2200" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="2257" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="3652" pos_y="107" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="3709" pos_y="107" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="4400" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="4457" pos_y="396" width="0" height="0" />
+  <object type="Turtle" visible="True" pos_x="4840" pos_y="380" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="5236" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="5293" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="5500" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="5550" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="5720" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="5770" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="7612" pos_y="396" width="0" height="0" />
+  <object type="Mushroom" visible="True" pos_x="7662" pos_y="396" width="0" height="0" />
+
+</root>
