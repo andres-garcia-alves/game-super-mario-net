@@ -1,4 +1,4 @@
-# SuperMarioNet
+# SuperMario.NET
 
 A 'Super Mario Bros' (NES) clon, developed in VB.NET & GDI+
 
