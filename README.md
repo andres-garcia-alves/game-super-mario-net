@@ -1,6 +1,8 @@
 # SuperMario.NET
 
-A 'Super Mario Bros' (NES) clon, developed in VB.NET & GDI+
+A 'Super Mario Bros' (NES) clon, developed in VB.NET & GDI+  
+
+There are some bugs with collision detection, which I hope to solve in a next release.  
 
 &nbsp;
 
@@ -16,10 +18,8 @@ A 'Super Mario Bros' (NES) clon, developed in VB.NET & GDI+
 
 &nbsp;
 
-Developed in 2010.11 for subject 'Programación III', at Universidad Tecnológica Nacional (UTN), Buenos Aires, Argentina.  
-
 This is the first public release of this project.  
-There are some bugs with collision detection, wich I hope to solve in next release.  
+Developed in 2010.11 for subject 'Programación III', at Universidad Tecnológica Nacional (UTN), Buenos Aires, Argentina.  
 
 Please send to me your feedback about this game: andres.garcia.alves@gmail.com
 
