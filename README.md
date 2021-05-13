@@ -6,11 +6,11 @@ A 'Super Mario Bros' (NES) clon, developed in VB.NET & GDI+
 
 ### Screenshots
 
-| Screenshot                                | Screenshot                                |
+| Welcome Screen                            | Game                                      |
 |-------------------------------------------|-------------------------------------------|
 | ![](Resources/screenshot-welcome.png)     | ![](Resources/screenshot-game-01.png)     |
 
-| Screenshot                                | Screenshot                                |
+| Game                                      | Game                                      |
 |-------------------------------------------|-------------------------------------------|
 | ![](Resources/screenshot-game-02.png)     | ![](Resources/screenshot-game-03.png)     |
 
