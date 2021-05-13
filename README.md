@@ -8,13 +8,15 @@ A 'Super Mario Bros' (NES) clon, developed in VB.NET & GDI+
 
 | Screenshot                                | Screenshot                                |
 |-------------------------------------------|-------------------------------------------|
-| ![](resources/screenshots-01.png)         | ![](resources/screenshots-02.png)         |
+| ![](Resources/screenshot-welcome.png)     | ![](Resources/screenshot-game-01.png)     |
 
 | Screenshot                                | Screenshot                                |
 |-------------------------------------------|-------------------------------------------|
-| ![](resources/screenshots-03.png)         | ![](resources/screenshots-04.png)         |
+| ![](Resources/screenshot-game-02.png)     | ![](Resources/screenshot-game-03.png)     |
 
 &nbsp;
+
+Developed in 2010.11 for subject 'Programación III', at Universidad Tecnológica Nacional (UTN), Buenos Aires, Argentina.  
 
 This is the first public release of this project.  
 There are some bugs with collision detection, wich I hope to solve in next release.  

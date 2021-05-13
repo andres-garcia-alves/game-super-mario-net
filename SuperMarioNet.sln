@@ -1,13 +1,32 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SuperMarioNet", "SuperMarioNet\SuperMarioNet.vbproj", "{E24E8D04-E61B-4684-93DF-CDC8ACBB921E}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SuperMarioNet.Game", "SuperMarioNet.Game\SuperMarioNet.Game.vbproj", "{E24E8D04-E61B-4684-93DF-CDC8ACBB921E}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MiscLibrary", "MiscLibrary\MiscLibrary.vbproj", "{1CA6D087-B252-4DBC-9727-093231CA2548}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SuperMarioNet.Miscellaneous", "SuperMarioNet.Miscellaneous\SuperMarioNet.Miscellaneous.vbproj", "{1CA6D087-B252-4DBC-9727-093231CA2548}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Entities", "Entities\Entities.vbproj", "{E41B15E3-879A-4CFF-A3A0-691D7051875C}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SuperMarioNet.Entities", "SuperMarioNet.Entities\SuperMarioNet.Entities.vbproj", "{E41B15E3-879A-4CFF-A3A0-691D7051875C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C7C92C1-407C-44B1-B984-55D62AE4F634}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Releases", "Releases", "{3C27422F-87EE-4261-BB20-4A4341E19756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{033B7480-52AD-415F-8B6F-76E9CEE5357B}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\screenshot-game-01.png = Resources\screenshot-game-01.png
+		Resources\screenshot-game-02.png = Resources\screenshot-game-02.png
+		Resources\screenshot-game-03.png = Resources\screenshot-game-03.png
+		Resources\screenshot-welcome.png = Resources\screenshot-welcome.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +49,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C27422F-87EE-4261-BB20-4A4341E19756} = {3C7C92C1-407C-44B1-B984-55D62AE4F634}
+		{033B7480-52AD-415F-8B6F-76E9CEE5357B} = {3C7C92C1-407C-44B1-B984-55D62AE4F634}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC2D09B1-8407-4EAD-B3E5-C7EECAD08723}
 	EndGlobalSection
 EndGlobal
