@@ -1,6 +1,6 @@
 # SuperMario.NET
 
-A 'Super Mario Bros' (NES) clon, developed in VB.NET & GDI+  
+A 'Super Mario Bros' (NES) game clon, developed in VB.NET & GDI+  
 
 There are some bugs with collision detection, which I hope to solve in a next release.  
 
